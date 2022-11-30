@@ -9,13 +9,10 @@ namespace AdventOfCode_2021 {
     class Program {
         static void Main(string[] args) {
 
-            //SonarSweep_01 sonar = new SonarSweep_01();
-            //Console.WriteLine(sonar.getNumberOfIncreases());
-
             //SonarSweep_02 sonar = new SonarSweep_02();
             //Console.WriteLine(sonar.GetNumberOfIncreases());
 
-            Dive_01 dive = new Dive_01();
+            Dive_02 dive = new Dive_02();
             Console.WriteLine(dive.GetMultiply());
 
             Console.ReadLine();
