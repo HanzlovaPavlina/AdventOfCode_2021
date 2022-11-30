@@ -42,7 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Day_01\SonarSweep.cs" />
+    <Compile Include="Day_01\SonarSweep_01.cs" />
+    <Compile Include="Day_01\SonarSweep_02.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
