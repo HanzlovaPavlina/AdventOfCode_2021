@@ -7,14 +7,17 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode_2021 {
     class SonarSweep {
-        public void sweep() {
+        public int getNumberOfIncreases() {
             loadInput();
             int actualSweep = 0;
-            int totalIncreases = 0;
+            int totalIncreases = -1;
 
-            // TODO for or while loop
-
-            }
+            foreach(int sweep in deeps) {
+                totalIncreases += checkIncreas(actualSweep, sweep);
+                actualSweep = sweep;
+                }
+            return totalIncreases;
+        }
 
         private int[] deeps = new int[2000];
         private void loadInput() {
@@ -35,10 +38,10 @@ namespace AdventOfCode_2021 {
                 Console.WriteLine(e.Message);
             }
         }
-        private bool checkIncreas(int lastSweep) {
+        private int checkIncreas(int lastSweep, int actualSweep) {
 
-            // TODO return true
-            return false;
+            if (actualSweep > lastSweep) return 1;
+            return 0;
             }
         }
 }

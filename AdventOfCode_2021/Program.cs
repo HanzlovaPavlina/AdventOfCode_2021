@@ -10,7 +10,7 @@ namespace AdventOfCode_2021 {
         static void Main(string[] args) {
 
             SonarSweep sonar = new SonarSweep();
-            sonar.sweep();
+            Console.WriteLine(sonar.getNumberOfIncreases());
             Console.ReadLine();
 
             }
