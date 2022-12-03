@@ -15,8 +15,12 @@ namespace AdventOfCode_2021 {
             //Dive_02 dive = new Dive_02();
             //Console.WriteLine(dive.GetMultiply());
 
-            BinaryDiagnostic_02 diagnostic = new BinaryDiagnostic_02();
-            Console.WriteLine(diagnostic.GetLifeSupportRating()); 
+            //BinaryDiagnostic_02 diagnostic = new BinaryDiagnostic_02();
+            //Console.WriteLine(diagnostic.GetLifeSupportRating()); 
+
+
+            GiantSquid_02 squid = new GiantSquid_02();
+            Console.WriteLine(squid.GetWinnerTicket());
 
             Console.ReadLine();
             }
