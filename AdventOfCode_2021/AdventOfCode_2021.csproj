@@ -50,6 +50,7 @@
     <Compile Include="Day_03\BinaryDiagnostic_01.cs" />
     <Compile Include="Day_04\GiantSquid_02.cs" />
     <Compile Include="Day_04\GiantSquid_01.cs" />
+    <Compile Include="Day_05\HydrothermalVenture.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -61,6 +62,7 @@
     <Content Include="Day_02\input.txt" />
     <Content Include="Day_03\input.txt" />
     <Content Include="Day_04\input.txt" />
+    <Content Include="Day_05\input.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -19,8 +19,11 @@ namespace AdventOfCode_2021 {
             //Console.WriteLine(diagnostic.GetLifeSupportRating()); 
 
 
-            GiantSquid_02 squid = new GiantSquid_02();
-            Console.WriteLine(squid.GetWinnerTicket());
+            //GiantSquid_02 squid = new GiantSquid_02();
+            //Console.WriteLine(squid.GetWinnerTicket());
+
+            HydrothermalVenture venture = new HydrothermalVenture();
+            Console.WriteLine(venture.GetHydrothermalVentureGroupCount("../../Day_05/input.txt"));
 
             Console.ReadLine();
             }
